@@ -1,0 +1,36 @@
+/*font-family: 'PT Sans', sans-serif;*/
+@font-face{
+	src: url(../font/PTSans-Regular.ttf);
+	font-family: PTSans-Regular;
+}
+@font-face{
+	src: url(../font/PTSans-Bold.ttf);
+	font-family: PTSans-Bold;
+}
+body{
+	font-weight: 700;
+	font-size: 16px;
+	color: #010101;
+}
+/*header start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-family: PTSans-Bold;
+	font-size:22px;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 35px !important;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: white !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*header end*/
